@@ -190,3 +190,25 @@ footer p {
     }
 
 }
+
+@media(max-width: 426px) {
+
+    header li {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+
+    .jumbotron h1 {
+        font-size: 8vw;
+    }
+
+    .jumbotron p {
+        font-size: 16px;
+    }
+
+    .medsos-logo {
+        margin: 0 10px;
+    }
+
+}
