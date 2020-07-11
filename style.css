@@ -12,6 +12,7 @@ body {
     overflow: hidden;
 }
 
+/* header awal */
 header {
     padding-top: 15px;
     min-height: 50px;
@@ -50,11 +51,15 @@ header li a:hover {
     border-bottom: 3px solid #15403D;
 }
 
+/* header akhir */
+
 h1,
 h3,
 p {
     color: #15403D;
 }
+
+/* jumbotron awal */
 
 .jumbotron {
     min-height: 400px;
@@ -76,6 +81,9 @@ p {
     font-size: 20px;
 }
 
+/* jumbotron akhir */
+
+/* blog awal */
 .blogs {
     margin-top: 20px;
     min-height: 500px;
@@ -106,7 +114,10 @@ h4 {
     text-decoration: none;
 }
 
+/* bolg akhir */
 
+
+/* contact awal */
 .contact {
     margin-top: 20px;
     text-align: center;
@@ -127,6 +138,9 @@ h4 {
     margin-top: -3px;
 }
 
+/* contact akhir */
+
+/* footer awal */
 footer {
     text-align: center;
     background-color: #15403D;
@@ -135,4 +149,43 @@ footer {
 footer p {
     color: #ffffff;
     padding: 0;
+}
+
+/* footer akhir */
+
+
+/* Media Query*/
+@media(max-width: 768px) {
+
+    header .logo,
+    header nav,
+    header li {
+        float: none;
+        text-align: center;
+    }
+
+    header ul {
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+    .blogs {
+        flex: none;
+    }
+
+    .blog {
+        float: none;
+        text-align: center;
+        width: 60%;
+        margin: 20px auto;
+    }
+
 }
