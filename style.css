@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 16px;
     font-family: 'Sitka heading';
-    background-color: #fefff1;
+    background-color: #eeeeef;
 }
 
 .container {
@@ -86,7 +86,7 @@ p {
 /* blog awal */
 .blogs {
     margin-top: 20px;
-    min-height: 500px;
+    min-height: 350px;
     flex: auto;
 }
 
