@@ -179,6 +179,7 @@ footer p {
 
     .blogs {
         flex: none;
+        text-align: center;
     }
 
     .blog {
