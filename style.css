@@ -97,6 +97,7 @@ p {
     text-align: center;
     float: left;
     margin: 20px 43px 0 43px;
+    border-radius: 6px;
 }
 
 .blog img {
