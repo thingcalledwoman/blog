@@ -86,7 +86,7 @@ p {
 /* blog awal */
 .blogs {
     margin-top: 20px;
-    min-height: 350px;
+    min-height: 500px;
     flex: auto;
 }
 
@@ -120,6 +120,7 @@ h4 {
 
 /* contact awal */
 .contact {
+    min-height: 400px;
     margin-top: 20px;
     text-align: center;
 }
